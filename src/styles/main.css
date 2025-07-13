@@ -584,3 +584,77 @@ footer {
     font-size: 1.8rem;
   }
 }
+
+/* === Additional Mobile Responsiveness Fixes === */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+  }
+
+  .hero h1,
+  .hero-text h1,
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p,
+  .hero-text p,
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .overview ul {
+    padding: 0;
+  }
+
+  .faq-section {
+    padding: 1rem 1rem;
+  }
+
+  .services-page,
+  .contact-page {
+    padding: 1rem;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr !important;
+    padding: 0 1rem;
+  }
+
+  .service-card {
+    padding: 1rem;
+  }
+
+  .intro {
+    padding: 1.5rem 1rem;
+  }
+
+  .cta {
+    padding: 2rem 1rem;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
