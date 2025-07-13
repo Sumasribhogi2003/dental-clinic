@@ -1,6 +1,6 @@
 # Installation :
 
-#### Clone the repository : 
+### Clone the repository : 
 
 git clone https://github.com/Sumasribhogi2003/dental-clinic.git
 
